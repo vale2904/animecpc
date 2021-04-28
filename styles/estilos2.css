@@ -1,0 +1,89 @@
+#banner{
+
+    background-image: url(../img/hd1.png);
+    background-size: cover;
+    padding: 20% 2%;
+    position:relative;
+    z-index:1;
+    background-attachment: fixed;
+}
+
+#banner::after{
+    content: '';
+    position:absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    opacity:0.55;
+    z-index:-1; 
+}
+
+#banner h1{
+    color:white;
+    position:relative;
+    font-size:4rem;
+}
+
+.bg-dark{
+    background-color:transparent !important;
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: 0.5s ease;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
+
+
+.zoom2{
+    overflow: hidden;
+}
+
+.zoom2 img{
+    transition: 0.5s filter 1s ease;
+    filter:grayscale(100%);
+}
+
+.zoom2:hover img{
+    filter:grayscale(0);
+    transform: scale(1);
+}
+
+
+.descripcion{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.2rem;
+}
+
+.fondoIcono{
+    color:black;
+}
+
+.fondoIcono2{
+    color:white;
+}
+
+.fondo2{
+    background-color:rgb(204, 61, 61);
+}
+
+.fondoFooter{
+    background-color: rgb(204, 61, 61);
+}
+
+.piePagina{
+    background-color: rgb(204, 61, 61);;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.fila{
+    height: 300px;
+}

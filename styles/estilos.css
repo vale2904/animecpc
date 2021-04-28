@@ -1,0 +1,55 @@
+#logo img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    font-family: 'Libre Baskerville', serif;
+}
+header nav{
+    text-align:center ;
+}
+header nav li{
+    display: inline-block;
+    padding:20px;
+    font-size: 20px;
+    color:rgb(233, 24, 24);
+}
+header nav a{
+    text-decoration: none;
+    color:inherit;
+}
+header nav a:hover{
+    color:rgb(219, 9, 9);
+    text-decoration:underline;
+}
+.imagenBanner{
+    height:500px;
+}
+.fondo1{
+background-color: rgb(238, 24, 24);
+}
+.fondo1 a i:hover{
+    transform:scale(1.8);
+    padding-bottom:15px;
+}
+.logos{
+    height:50px;
+}
+.links{
+    display: inline-block;
+    padding:20px;
+    font-size: 20px; 
+}
+.piePagina{
+    background-color:rgb(204, 61, 61);
+    font-family: 'Gochi Hand', cursive;
+}
+.fila{
+    height: 400px;
+}
+.fondoMovil{
+    background-image: url(../img/hd2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+}
